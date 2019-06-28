@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script>
+function myFunction() {
+  var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://client.dev.cbo.zappware.com/secure/v1/graphql",
+  "method": "OPTIONS",
+  "headers": {
+    "Accept": "text/plain",
+    "X-Amz-Security-Token": "AgoGb3JpZ2luEGMaCWV1LXdlc3QtMSKAApLzn/2il23Aet4wIUIWw9yh50XzulrFIF+yKH3l30uPNtHabfwZlhtbvrJ18PA5E6A2PR7cC3uMN3bgqS/FhNUD/RKm8xFLPiGAxvnUzVh540FHDvPELPv5k5djINrVujzFDD7nl/lJeLuffQOgnl2vF4xC4l6kThLMwleoMpbiKMduNwNxx8+FQahlF1MetKjddz/dWyZRi6HJla12V5o9bCxozS2kmLEhyfwTs06Vv17kkyJAd5tyMH5RKJ9rGM3Dclbm3+69Lg30gLuma8vmFqLSe9T9hC3rVzz3wGR0nspQimQj9+A5TN2kxVQXDaUScJCgjAvrtlN4Q4OAEa4q8QQIWBABGgw4MTQyNjk4ODM4ODkiDE2MxnNET1f0DuvDhyrOBMOM6Tt2KahxT8uwyUOSbydxLH+ZyTTqfzWVYBx+VrtXABl8vXQSHIbdQO+uAKT/hVztrFwcDMLzjylBZAr3HW5q9EvWXATuEF9EwdtYyCNo/sKtRHJIxkBzvpOb4AyK7e85L2nY74cq6v6i7lPt5D30KmQUUp9Omgnio6hCoOyeTqk9Q9DkwhYGT3rK/HTPyYdte3LsIOLjqznJoGUuqTRCd7D6sFUPdfC8PsIpjsg9wRcpxCdjjcE+JYwJapNxvzQCK2WgToCCgQtBDE8CsX0rjrDV4eOft73kTe84EAwLQnOAZk6f74vDFBRvvezJZsRgTntze4mCjVHMh97sQW4OdHaYE8pb1LyttjB06ouRUrzNKE5cRsTxB92+TkaWJzG3mbtSBEFZjbJZc5A7TLzIOB9gTaiDMO5wgIbSZynLtE34NlvEHhyZXC3fgJV8O1hZxbbUqluRTvZIuAMD9QFI/AMBDohaajlgBoXQQvsQ6xBxv9IUXHTyjEf39/lCaMfiZFLqcPoDT87d9BAJXLFu1jmh63wsLkNWbdAH2srYzyaQ07TEz9HL0MM2B642WqR9IXEgV+HwQkXfBoo4zFSTUctZlvFoyU3tMWFWwecnb5zp9Md5Q3gtnUN0DpGI2h39jc93tdlzZlyf8TK6bOnTG6ft7MKPTrYEPFAMzihLhH46x+nm9b+pvbXuLrIS1HHq2Ta1OMuN63ALuvvr+ziHyBAZIKnSBEPBU3uZDc3utE5i2BL48zOvrZ2t0+QBnOSbpFJl4uQryreNm/i0MODz1ugF",
+    "X-Amz-Date": "20190628T065627Z",
+    "Authorization": "AWS4-HMAC-SHA256 Credential=ASIA33FSEMXY3D2FTNB7/20190628/eu-west-1/execute-api/aws4_request, SignedHeaders=accept;host;x-amz-date;x-amz-security-token, Signature=8211403ce819ca23960a4f14b36b497f69cb6a19dc2e7d92f5ea741c8c47716d",
+    "Postman-Token": "973e467b-b3fd-4fa3-bfd0-3831f7fae71f,b2f43e0b-f7dc-48bb-9eae-2919ee03db9e",
+    "accept-encoding": "gzip, deflate",
+    "Connection": "keep-alive",
+    "cache-control": "no-cache"
+  }
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
+}
+</script>
+</head>
+<body>
+
+<h1>A Web Page</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
+</html>
+
+
+
+
